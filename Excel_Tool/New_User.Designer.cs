@@ -129,9 +129,9 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(93, 192);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(72, 16);
+            this.checkBox1.Size = new System.Drawing.Size(30, 16);
             this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "정책실험";
+            this.checkBox1.Text = "1";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
@@ -139,9 +139,9 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(93, 214);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(109, 16);
+            this.checkBox2.Size = new System.Drawing.Size(30, 16);
             this.checkBox2.TabIndex = 11;
-            this.checkBox2.Text = "교육·특강(강좌)";
+            this.checkBox2.Text = "4";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
@@ -149,19 +149,20 @@
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(249, 192);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(72, 16);
+            this.checkBox3.Size = new System.Drawing.Size(30, 16);
             this.checkBox3.TabIndex = 10;
-            this.checkBox3.Text = "네트워크";
+            this.checkBox3.Text = "3";
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.Location = new System.Drawing.Point(171, 192);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(72, 16);
+            this.checkBox4.Size = new System.Drawing.Size(30, 16);
             this.checkBox4.TabIndex = 9;
-            this.checkBox4.Text = "창업지원";
+            this.checkBox4.Text = "2";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // checkBox5
@@ -169,9 +170,9 @@
             this.checkBox5.AutoSize = true;
             this.checkBox5.Location = new System.Drawing.Point(208, 214);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(128, 16);
+            this.checkBox5.Size = new System.Drawing.Size(30, 16);
             this.checkBox5.TabIndex = 12;
-            this.checkBox5.Text = "여성관련 정보 모두";
+            this.checkBox5.Text = "5";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // checkBox6
@@ -179,9 +180,9 @@
             this.checkBox6.AutoSize = true;
             this.checkBox6.Location = new System.Drawing.Point(93, 246);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(72, 16);
+            this.checkBox6.Size = new System.Drawing.Size(30, 16);
             this.checkBox6.TabIndex = 13;
-            this.checkBox6.Text = "지인소개";
+            this.checkBox6.Text = "1";
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
             // checkBox7
@@ -189,9 +190,9 @@
             this.checkBox7.AutoSize = true;
             this.checkBox7.Location = new System.Drawing.Point(164, 246);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(60, 16);
+            this.checkBox7.Size = new System.Drawing.Size(30, 16);
             this.checkBox7.TabIndex = 14;
-            this.checkBox7.Text = "블로그";
+            this.checkBox7.Text = "2";
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
             // checkBox8
@@ -199,9 +200,9 @@
             this.checkBox8.AutoSize = true;
             this.checkBox8.Location = new System.Drawing.Point(230, 246);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(49, 16);
+            this.checkBox8.Size = new System.Drawing.Size(30, 16);
             this.checkBox8.TabIndex = 15;
-            this.checkBox8.Text = "SNS";
+            this.checkBox8.Text = "3";
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
             // checkBox9
@@ -209,9 +210,9 @@
             this.checkBox9.AutoSize = true;
             this.checkBox9.Location = new System.Drawing.Point(285, 246);
             this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(72, 16);
+            this.checkBox9.Size = new System.Drawing.Size(30, 16);
             this.checkBox9.TabIndex = 16;
-            this.checkBox9.Text = "홈페이지";
+            this.checkBox9.Text = "4";
             this.checkBox9.UseVisualStyleBackColor = true;
             // 
             // checkBox10
@@ -219,9 +220,9 @@
             this.checkBox10.AutoSize = true;
             this.checkBox10.Location = new System.Drawing.Point(93, 268);
             this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(84, 16);
+            this.checkBox10.Size = new System.Drawing.Size(30, 16);
             this.checkBox10.TabIndex = 17;
-            this.checkBox10.Text = "홍보전단지";
+            this.checkBox10.Text = "5";
             this.checkBox10.UseVisualStyleBackColor = true;
             // 
             // checkBox11

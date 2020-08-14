@@ -88,16 +88,19 @@ namespace 엑셀_관리_프로그램
             group.group_new_num = sum.ToString();
 
 
-            dt.Rows.Add(group.group_new_num, group.group_name, group.ceo_name, group.charge,
-            group.tel,
-            group.tel2,
-            group.address,
-            group.email,
-            group.interest,
-            group.path,
-            group.todaydate,
-            group.lastdate,
-            group.record);
+            dt.Rows.Add(group.group_new_num,
+                            group.group_name, 
+                            group.ceo_name, 
+                            group.charge,
+                            group.tel,
+                            group.tel2,
+                            group.address,
+                            group.email,
+                            group.interest,
+                            group.path,
+                            group.todaydate,
+                            group.lastdate,
+                            group.record);
 
             f1.dataGridView2.DataSource = dt;
         }

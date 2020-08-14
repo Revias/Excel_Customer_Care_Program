@@ -121,7 +121,6 @@ namespace 엑셀_관리_프로그램
             return str;
         }
 
-        // 함수명 releaseObject 입력인자 : 해제 원하는 Obj
         public void releaseObject(object obj)
         {
             try

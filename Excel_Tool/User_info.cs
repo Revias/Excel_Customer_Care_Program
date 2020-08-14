@@ -35,7 +35,6 @@ namespace 엑셀_관리_프로그램
             if (fileInfo.Exists)
             {
                 Start();
-                //User_nbr(); // 회원번호 찾기
             }
             else
             {
@@ -162,71 +161,7 @@ namespace 엑셀_관리_프로그램
                 }
                 
             }
-                // 다시 설계 해야항
-
-
-            // DataGridView1.CurrentCell = DataGridView1.Rows[rowindex].Cells[columnindex] 
-
-            /*
-            for (int r = 0; r < range.Rows.Count; r++)
-            {
-                DataRow dr = table.Rows.Add();
-
-                for (int c = 1; c < 13; c++)
-                {
-                    dr[c - 1] = data[r + 1, c];
-                }
-            }
-            */
             dataGridView1.DataSource = table;
-
-            //workbook.Close(true);
-            //app.Quit();
-
-
-
-            //string number = (f1.haha()+1).ToString();
-
-
-            /*
-            for (int i = 0; i < 75; i++)
-            {
-                string value = dataGridView1.Rows[i].Cells[0].FormattedValue.ToString();
-
-                if (value == number) // 비교
-                {
-                    string vl = f1.dataGridView1.Rows[f1.haha()].Cells[10].FormattedValue.ToString();
-                    string sp = vl.Substring(5, 2);
-                    string mm = DateTime.Now.ToString("MM");
-                    
-                    if (sp == mm)
-                    {
-
-                        dataGridView1.Rows[i+3].Cells[6].Value = 1;
-                        //MessageBox.Show("0");
-                    }
-                    else
-                    {
-                        dataGridView1.Rows[i+3].Cells[6].Value = 1;
-                        //MessageBox.Show("1");
-                    }
-                }
-            }*/
-
-
-            /*
-            for (int r = 0; r < dataGridView1.RowCount; r++)
-            {
-                for (int c = 0; c < 32; c++)
-                {
-                    worksheet.Cells[r, c] = dataGridView1.Rows[r].Cells[c].Value;
-                }
-            }
-            worksheet.Columns.AutoFit(); //자동 넒이
-            app.DisplayAlerts = false;
-            workbook.SaveAs(System.Windows.Forms.Application.StartupPath + "\\엑셀_관리_프로그램_엑셀\\엑셀_관리_프로그램_회원_단체.xlsx", XlFileFormat.xlWorkbookDefault);
-            workbook.Close(System.Windows.Forms.Application.StartupPath + "\\엑셀_관리_프로그램_엑셀" + Type.Missing);
-            */
 
             user_info_save();
             app.Quit();
@@ -345,8 +280,6 @@ namespace 엑셀_관리_프로그램
 
             worksheet.Columns.AutoFit(); //자동 넒이
             app.DisplayAlerts = false;
-           // workbook.SaveAs(System.Windows.Forms.Application.StartupPath + "\\엑셀_관리_프로그램_엑셀\\엑셀_관리_프로그램_회원_단체.xlsx", XlFileFormat.xlWorkbookDefault);
-            //workbook.Close(System.Windows.Forms.Application.StartupPath + "\\엑셀_관리_프로그램_엑셀" + Type.Missing);
 
             f1.releaseObject(worksheet);
             f1.releaseObject(workbook);

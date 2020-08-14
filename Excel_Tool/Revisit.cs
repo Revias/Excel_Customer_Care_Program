@@ -85,7 +85,6 @@ namespace 엑셀_관리_프로그램
                 else
                 { MessageBox.Show("등록되지 않은 회원입니다."); }
 
-                //f1.dataGridView1.Rows[column].Cells[12].Value = textBox3.Text;
                 Application.OpenForms["Revisit"].Close();
             }
             // 단체 재방문

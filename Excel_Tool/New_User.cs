@@ -193,20 +193,29 @@ namespace 엑셀_관리_프로그램
             }
             else
             {
-                dt.Rows.Add(news.newnum, news.name, news.sex, news.age,
-                news.tel,
-                news.address,
-                news.email,
-                news.interest,
-                news.path,
-                news.todaydate,
-                news.lastdate,
-                news.record);
+                dt.Rows.Add(
+                    news.newnum, 
+                    news.name, 
+                    news.sex,
+                    news.age,
+                    news.tel,
+                    news.address,
+                    news.email,
+                    news.interest,
+                    news.path,
+                    news.todaydate,
+                    news.lastdate,
+                    news.record);
             }
             f1.dataGridView1.DataSource = dt;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
 
         }
